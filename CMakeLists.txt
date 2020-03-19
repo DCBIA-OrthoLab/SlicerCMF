@@ -12,8 +12,8 @@ set(EXTENSION_ICONURL "https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerCM
 set(EXTENSION_SCREENSHOTURLS "http://www.example.com/Slicer/Extensions/SlicerCMF/Screenshots/1.png")
 set(EXTENSION_DEPENDS
   # BoneTextureExtension
-  CMFReg
   # EasyClip
+  CMFreg
   MeshToLabelMap
   MeshStatisticsExtension
   ModelToModelDistance
