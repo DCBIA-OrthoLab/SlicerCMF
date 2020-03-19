@@ -18,15 +18,14 @@ class SlicerCMF(ScriptedLoadableModule):
     self.parent.title = "SlicerCMF" # TODO make this more human readable by adding spaces
     self.parent.categories = ["SlicerCMF"]
     self.parent.dependencies = []
-    self.parent.contributors = ["John Doe (AnyWare Corp.)"] # replace with "Firstname Lastname (Organization)"
+    self.parent.contributors = ["Jean-Christophe Fillion-Robin (Kitware)"] # replace with "Firstname Lastname (Organization)"
     self.parent.helpText = """
-This is an example of scripted loadable module bundled in an extension.
-It performs a simple thresholding on the input volume and optionally captures a screenshot.
+Dental image analysis to support patient-specific decision making and assessment of the disease progression via registration of serial images.
 """
     self.parent.helpText += self.getDefaultModuleDocumentationLink()
     self.parent.acknowledgementText = """
 This file was originally developed by Jean-Christophe Fillion-Robin, Kitware Inc.
-and Steve Pieper, Isomics, Inc. and was partially funded by NIH grant 3P41RR013218-12S1.
+and was partially funded by NIH grant R01-DE024450-01A1.
 """ # replace with organization, grant and thanks.
 
 #
