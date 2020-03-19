@@ -11,9 +11,9 @@ set(EXTENSION_DESCRIPTION "Dental image analysis to support patient-specific dec
 set(EXTENSION_ICONURL "https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerCMF/master/SlicerCMF.png")
 set(EXTENSION_SCREENSHOTURLS "http://www.example.com/Slicer/Extensions/SlicerCMF/Screenshots/1.png")
 set(EXTENSION_DEPENDS
-  # BoneTextureExtension
-  # EasyClip
+  BoneTextureExtension
   CMFreg
+  EasyClip
   MeshToLabelMap
   MeshStatisticsExtension
   ModelToModelDistance
@@ -22,7 +22,7 @@ set(EXTENSION_DEPENDS
   # ShapePopulationViewer
   # ShapeVariationAnalyzer
   # SPHARM-PDM
-  ) # Specified as a space separated string, a list or 'NA' if any
+  ) # Specified as a list or 'NA' if any
 
 # Not available as extension:
 #  DatabaseInteractorExtension
