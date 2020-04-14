@@ -20,7 +20,7 @@ set(EXTENSION_DEPENDS
   PickAndPaintExtension
   Q3DC
   ShapePopulationViewer
-  # ShapeVariationAnalyzer
+  ShapeVariationAnalyzer
   # SPHARM-PDM
   ) # Specified as a list or 'NA' if any
 
