@@ -46,6 +46,7 @@ class SlicerCMFWidget(ScriptedLoadableModuleWidget):
 <br>
 <u>SlicerCMF modules:</u><br>
 <p style="margin: 1%  ">
+<a href="#ShapePopulationViewer"><b>ShapePopulationViewer</b></a>: This module allows to interact with multiple 3D surfaces at the same time. It supports visualization and comparison of 3D surfaces by displaying the associated pointwise data (scalar or vector maps) via customizable colormaps.<br><br>
 <a href="#BoneTexture"><b>Bone Texture</b></a>: This module allows to interact with multiple 3D surfaces at the same time. It supports visualization and comparison of 3D surfaces by displaying the associated pointwise data (scalar or vector maps) via customizable colormaps.<br><br>
 <a href="#SurfaceRegistration"><b>Surface Registration</b></a>: This module performs region based registration<br><br>
 <a href="#EasyClip"><b>EasyClip</b></a>: This module is used to clip and close one or several models according to a predetermined plane. Planes can be saved and reused.<br><br>
