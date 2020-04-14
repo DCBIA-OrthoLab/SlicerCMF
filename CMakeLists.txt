@@ -19,7 +19,7 @@ set(EXTENSION_DEPENDS
   ModelToModelDistance
   PickAndPaintExtension
   Q3DC
-  # ShapePopulationViewer
+  ShapePopulationViewer
   # ShapeVariationAnalyzer
   # SPHARM-PDM
   ) # Specified as a list or 'NA' if any
