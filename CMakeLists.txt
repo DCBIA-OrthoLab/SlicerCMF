@@ -11,6 +11,7 @@ set(EXTENSION_DESCRIPTION "SlicerCMF is a 3D Slicer extension providing registra
 set(EXTENSION_ICONURL "https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerCMF/master/SlicerCMF.png")
 set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/slicercmf/slicercmf.github.io/master/images/slicercmf-angles-between-craniofacial-structures.png")
 set(EXTENSION_DEPENDS
+  AnglePlanesExtension
   BoneTextureExtension
   CMFreg
   EasyClip
