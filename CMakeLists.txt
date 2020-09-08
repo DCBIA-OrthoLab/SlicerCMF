@@ -14,16 +14,16 @@ set(EXTENSION_DEPENDS
   AnglePlanesExtension
   BoneTextureExtension
   CMFreg
+  DatabaseInteractor
   EasyClip
-  MeshToLabelMap
   MeshStatisticsExtension
+  MeshToLabelMap
   ModelToModelDistance
   PickAndPaintExtension
   Q3DC
+  SPHARM-PDM
   ShapePopulationViewer
   ShapeVariationAnalyzer
-  DatabaseInteractor
-  SPHARM-PDM
   ) # Specified as a list or 'NA' if any
 
 # Not available as extension:
