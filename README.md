@@ -28,6 +28,8 @@ install these.
 | [Q3DC][gh-Q3DC]                                       | [cdash][cdash-Q3DC]                    |
 | [ShapePopulationViewer][gh-ShapePopulationViewer]     | [cdash][cdash-ShapePopulationViewer]   |
 | [ShapeVariationAnalyzer][gh-ShapeVariationAnalyzer]   | [cdash][cdash-ShapeVariationAnalyzer]  |
+| [DatabaseInteractor][gh-DatabaseInteractor]           | [cdash][cdash-DatabaseInteractor]      |
+| [SPHARM-PDM][gh-SPHARM-PDM]                           | [cdash][cdash-SPHARM-PDM]              |
 
 [gh-AnglePlanesExtension]: https://github.com/DCBIA-OrthoLab/AnglePlanes-Extension
 [gh-BoneTextureExtension]: https://github.com/Kitware/BoneTextureExtension
@@ -40,6 +42,8 @@ install these.
 [gh-Q3DC]: https://github.com/DCBIA-OrthoLab/Q3DCExtension
 [gh-ShapePopulationViewer]: https://github.com/NIRALUser/ShapePopulationViewer
 [gh-ShapeVariationAnalyzer]: https://github.com/DCBIA-OrthoLab/ShapeVariationAnalyzer
+[gh-DatabaseInteractor]: https://github.com/DCBIA-OrthoLab/DatabaseInteractorExtension
+[gh-SPHARM-PDM]: https://github.com/NIRALUser/SPHARM-PDM
 
 [cdash-AnglePlanesExtension]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=AnglePlanesExtension
 [cdash-BoneTextureExtension]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=BoneTexture
@@ -52,4 +56,6 @@ install these.
 [cdash-Q3DC]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=Q3DC
 [cdash-ShapePopulationViewer]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ShapePopulationViewer
 [cdash-ShapeVariationAnalyzer]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ShapeVariationAnalyzer
+[cdash-DatabaseInteractor]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=DatabaseInteractor
+[cdash-SPHARM-PDM]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=SPHARM-PDM
 

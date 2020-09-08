@@ -22,11 +22,11 @@ set(EXTENSION_DEPENDS
   Q3DC
   ShapePopulationViewer
   ShapeVariationAnalyzer
-  # SPHARM-PDM
+  DatabaseInteractor
+  SPHARM-PDM
   ) # Specified as a list or 'NA' if any
 
 # Not available as extension:
-#  DatabaseInteractorExtension
 #  GROUPS
 #  MFSDA_Python
 
