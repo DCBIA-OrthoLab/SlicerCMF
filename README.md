@@ -20,36 +20,42 @@ install these.
 | [AnglePlanesExtension][gh-AnglePlanesExtension]       | [cdash][cdash-AnglePlanesExtension]    |
 | [BoneTextureExtension][gh-BoneTextureExtension]       | [cdash][cdash-BoneTextureExtension]    |
 | [CMFreg][gh-CMFreg]                                   | [cdash][cdash-CMFreg]                  |
+| [DatabaseInteractor][gh-DatabaseInteractor]           | [cdash][cdash-DatabaseInteractor]      |
 | [EasyClip][gh-EasyClip]                               | [cdash][cdash-EasyClip]                |
 | [MeshStatisticsExtension][gh-MeshStatisticsExtension] | [cdash][cdash-MeshStatisticsExtension] |
 | [MeshToLabelMap][gh-MeshToLabelMap]                   | [cdash][cdash-MeshToLabelMap]          |
 | [ModelToModelDistance][gh-ModelToModelDistance]       | [cdash][cdash-ModelToModelDistance]    |
 | [PickAndPaintExtension][gh-PickAndPaintExtension]     | [cdash][cdash-PickAndPaintExtension]   |
 | [Q3DC][gh-Q3DC]                                       | [cdash][cdash-Q3DC]                    |
+| [SPHARM-PDM][gh-SPHARM-PDM]                           | [cdash][cdash-SPHARM-PDM]              |
 | [ShapePopulationViewer][gh-ShapePopulationViewer]     | [cdash][cdash-ShapePopulationViewer]   |
 | [ShapeVariationAnalyzer][gh-ShapeVariationAnalyzer]   | [cdash][cdash-ShapeVariationAnalyzer]  |
 
 [gh-AnglePlanesExtension]: https://github.com/DCBIA-OrthoLab/AnglePlanes-Extension
 [gh-BoneTextureExtension]: https://github.com/Kitware/BoneTextureExtension
 [gh-CMFreg]: https://github.com/DCBIA-OrthoLab/CMFreg
+[gh-DatabaseInteractor]: https://github.com/DCBIA-OrthoLab/DatabaseInteractorExtension
 [gh-EasyClip]: https://github.com/DCBIA-OrthoLab/EasyClip-Extension
 [gh-MeshStatisticsExtension]: https://github.com/DCBIA-OrthoLab/MeshStatisticsExtension
 [gh-MeshToLabelMap]: https://github.com/NIRALUser/MeshToLabelMap
 [gh-ModelToModelDistance]: https://github.com/NIRALUser/3DMetricTools
 [gh-PickAndPaintExtension]: https://github.com/DCBIA-OrthoLab/PickAndPaintExtension
 [gh-Q3DC]: https://github.com/DCBIA-OrthoLab/Q3DCExtension
+[gh-SPHARM-PDM]: https://github.com/NIRALUser/SPHARM-PDM
 [gh-ShapePopulationViewer]: https://github.com/NIRALUser/ShapePopulationViewer
 [gh-ShapeVariationAnalyzer]: https://github.com/DCBIA-OrthoLab/ShapeVariationAnalyzer
 
 [cdash-AnglePlanesExtension]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=AnglePlanesExtension
 [cdash-BoneTextureExtension]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=BoneTexture
 [cdash-CMFreg]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=CMFreg
+[cdash-DatabaseInteractor]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=DatabaseInteractor
 [cdash-EasyClip]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=EasyClip
 [cdash-MeshStatisticsExtension]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=MeshStatisticsExtension
 [cdash-MeshToLabelMap]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=MeshToLabelMap
 [cdash-ModelToModelDistance]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ModelToModelDistance
 [cdash-PickAndPaintExtension]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=PickAndPaintExtension
 [cdash-Q3DC]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=Q3DC
+[cdash-SPHARM-PDM]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=SPHARM-PDM
 [cdash-ShapePopulationViewer]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ShapePopulationViewer
 [cdash-ShapeVariationAnalyzer]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ShapeVariationAnalyzer
 
