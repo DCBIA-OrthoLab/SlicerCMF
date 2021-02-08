@@ -57,6 +57,7 @@ class SlicerCMFWidget(ScriptedLoadableModuleWidget):
 <a href="#ModelToModelDistance"><b>ModelToModelDistance</b></a>: This module computes a point by point distance between two models.<br><br>
 <a href="#PickAndPaint"><b>PickAndPaint</b></a>: This module selects a region of interest (ROI) in a model or models. The user selects a landmark and a number of vertices to define the size of the ROI, and this information gets propagated to the rest of the models in case of having multiple ones.<br><br>
 <a href="#Q3DC"><b>Q3DC</b></a>: This module allows to perform head measurements used in craniofacial surgery (called Quantitative 3D Cephalometrics). Using placed fiducials, the module allows users to compute 2D angles: Yaw, Pitch and Roll; and decompose the 3D distance into the three different components: R-L , A-P and S-I. It is possible to compute the middle point between two fiducials and export the values.<br><br>
+<a href="#SurfaceRegistration"><b>CMFreg</b></a>: This module allows the user to compute and apply transformations (registration) between two 3D models (VTK file). The registration can be computed using the entire mesh of both models (Surface Registration), just a region of interest (ROI Registration) on each model, or two fiducial lists which can be projected on the meshes (Fiducial Registration).<br><br>
 </p>
     """
 
