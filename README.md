@@ -22,6 +22,7 @@ install these.
 | [CMFreg][gh-CMFreg]                                   | [cdash][cdash-CMFreg]                  |
 | [DatabaseInteractor][gh-DatabaseInteractor]           | [cdash][cdash-DatabaseInteractor]      |
 | [EasyClip][gh-EasyClip]                               | [cdash][cdash-EasyClip]                |
+| [GROUPS][gh-GROUPS]                                   | _NA (extension is bundled)_            |
 | [MeshStatisticsExtension][gh-MeshStatisticsExtension] | [cdash][cdash-MeshStatisticsExtension] |
 | [MeshToLabelMap][gh-MeshToLabelMap]                   | [cdash][cdash-MeshToLabelMap]          |
 | [ModelToModelDistance][gh-ModelToModelDistance]       | [cdash][cdash-ModelToModelDistance]    |
@@ -36,6 +37,7 @@ install these.
 [gh-CMFreg]: https://github.com/DCBIA-OrthoLab/CMFreg
 [gh-DatabaseInteractor]: https://github.com/DCBIA-OrthoLab/DatabaseInteractorExtension
 [gh-EasyClip]: https://github.com/DCBIA-OrthoLab/EasyClip-Extension
+[gh-GROUPS]: https://github.com/NIRALUser/GROUPS
 [gh-MeshStatisticsExtension]: https://github.com/DCBIA-OrthoLab/MeshStatisticsExtension
 [gh-MeshToLabelMap]: https://github.com/NIRALUser/MeshToLabelMap
 [gh-ModelToModelDistance]: https://github.com/NIRALUser/3DMetricTools
