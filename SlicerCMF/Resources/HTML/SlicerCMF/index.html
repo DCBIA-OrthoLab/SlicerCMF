@@ -74,11 +74,34 @@
     between two fiducials and export the values.
 </p>
 
-<h3><a href="#SurfaceRegistration">CMFreg Surface Registration</a></h3>
+<h3><a href="#SurfaceRegistration">Surface Registration</a></h3>
 <p>
     This module allows the user to compute and apply transformations (registration)
     between two 3D models (VTK file). The registration can be computed using the entire
     mesh of both models (Surface Registration), just a region of interest (ROI
     Registration) on each model, or two fiducial lists which can be projected on the
     meshes (Fiducial Registration).
+</p>
+
+<h3><a href="#NonGrowing">Image Registration (NonGrowing)</a></h3>
+<p>
+    This module allows the user to compute and apply transformations (registration)
+    between two 3D volumes. The registration can use a one-label segmentation image to
+    define a region of interest on each model.
+</p>
+
+<h3><a href="#Growing">Image Registration (Growing)</a></h3>
+<p>
+    This module provides additional voxel-based registration options in addition to the
+    functionality provided by the <a href="#NonGrowing">NonGrowing</a> module.
+</p>
+
+<h3>CMFreg Utilities</h3>
+
+<p>
+    <a href="#ApplyMatrix">ApplyMatrix</a> &mdash;
+    <a href="#Downsize">Downsize</a> &mdash;
+    <a href="#LabelAddition">LabelAddition</a> &mdash;
+    <a href="#LabelExtraction">LabelExtraction</a> &mdash;
+    <a href="#MaskCreation">MaskCreation</a>
 </p>
