@@ -1,8 +1,9 @@
 import os
-import unittest
-import vtk, qt, ctk, slicer
+
+import qt
+import slicer
 from slicer.ScriptedLoadableModule import *
-import logging
+
 
 #
 # SlicerCMF
@@ -42,35 +43,23 @@ class SlicerCMFWidget(ScriptedLoadableModuleWidget):
 
     # Instantiate and connect widgets ...
 
-    text = """
-<br>
-<u>SlicerCMF modules:</u><br>
-<p style="margin: 1%  ">
-<a href="#ShapePopulationViewer"><b>ShapePopulationViewer</b></a>: This module allows to interact with multiple 3D surfaces at the same time. It supports visualization and comparison of 3D surfaces by displaying the associated pointwise data (scalar or vector maps) via customizable colormaps.<br><br>
-<a href="#ShapeVariationAnalyzer"><b>ShapeVariationAnalyzer</b></a>: This module allows the classification of 3D models, according to their morphological variation. This tool is based on a deep learning neural network. The module is composed of multiple panels to perform the different steps of the process: create the classification groups, compute their average shapes, train the classifier and classify shapes.s<br><br>
-<a href="#AnglePlanes"><b>Angle Planes</b></a>: This module is used to calculate the angle between two planes. The user selects already loaded planes or they can define a plane by using three landmarks.<br><br>
-<a href="#BoneTexture"><b>Bone Texture</b></a>: This module allows to interact with multiple 3D surfaces at the same time. It supports visualization and comparison of 3D surfaces by displaying the associated pointwise data (scalar or vector maps) via customizable colormaps.<br><br>
-<a href="#SurfaceRegistration"><b>Surface Registration</b></a>: This module performs region based registration<br><br>
-<a href="#EasyClip"><b>EasyClip</b></a>: This module is used to clip and close one or several models according to a predetermined plane. Planes can be saved and reused.<br><br>
-<a href="#MeshStatistics"><b>MeshStatistics</b></a>: This module computes descriptive statistics (min, max, avg, std, 5th per, 15th per, 15th per, 75th per, 85th per and 99th per) on data fields of a model or models. The statistics can be computed over predefined regions (selected with <a href="#PickAndPaint">PickAndPaint</a>) or the entire model.<br><br>
-<a href="#MeshToLabelMap"><b>MeshToLabelMap</b></a>: This module can converts a model into a binary segmentation image volume.<br><br>
-<a href="#ModelToModelDistance"><b>ModelToModelDistance</b></a>: This module computes a point by point distance between two models.<br><br>
-<a href="#PickAndPaint"><b>PickAndPaint</b></a>: This module selects a region of interest (ROI) in a model or models. The user selects a landmark and a number of vertices to define the size of the ROI, and this information gets propagated to the rest of the models in case of having multiple ones.<br><br>
-<a href="#Q3DC"><b>Q3DC</b></a>: This module allows to perform head measurements used in craniofacial surgery (called Quantitative 3D Cephalometrics). Using placed fiducials, the module allows users to compute 2D angles: Yaw, Pitch and Roll; and decompose the 3D distance into the three different components: R-L , A-P and S-I. It is possible to compute the middle point between two fiducials and export the values.<br><br>
-<a href="#SurfaceRegistration"><b>CMFreg</b></a>: This module allows the user to compute and apply transformations (registration) between two 3D models (VTK file). The registration can be computed using the entire mesh of both models (Surface Registration), just a region of interest (ROI Registration) on each model, or two fiducial lists which can be projected on the meshes (Fiducial Registration).<br><br>
-</p>
-    """
+    indexPath = self.resourcePath('HTML/SlicerCMF/index.html')
+    url = qt.QUrl.fromLocalFile(indexPath)
 
     modulesTextBrowser = qt.QTextBrowser()
-    modulesTextBrowser.setHtml(text)
-    modulesTextBrowser.setMinimumHeight(400)
+    modulesTextBrowser.setSource(url)
     modulesTextBrowser.connect('anchorClicked(QUrl)', self.onAnchorClicked)
+
+    sp = qt.QSizePolicy()
+    sp.setVerticalPolicy(qt.QSizePolicy.Expanding)
+    sp.setHorizontalPolicy(qt.QSizePolicy.Expanding)
+    sp.setVerticalStretch(1)
+    sp.setHorizontalStretch(1)
+
+    modulesTextBrowser.setSizePolicy(sp)
 
     self.modulesTextBrowser = modulesTextBrowser
     self.layout.addWidget(self.modulesTextBrowser)
-
-    # Add vertical spacer
-    self.layout.addStretch(1)
 
   def cleanup(self):
     pass
@@ -78,3 +67,7 @@ class SlicerCMFWidget(ScriptedLoadableModuleWidget):
   def onAnchorClicked(self, url):
       moduleName = url.fragment()
       slicer.util.selectModule(moduleName)
+
+  def resourcePath(self, filename):
+    scriptedModulesPath = os.path.dirname(slicer.util.modulePath(self.moduleName))
+    return os.path.join(scriptedModulesPath, 'Resources', filename)
