@@ -48,20 +48,20 @@ install these.
 [gh-SPV]: https://github.com/NIRALUser/ShapePopulationViewer
 [gh-SVA]: https://github.com/DCBIA-OrthoLab/ShapeVariationAnalyzer
 
-[cdash-SlicerCMF]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=SlicerCMF
-[cdash-AnglePlanes]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=AnglePlanesExtension
-[cdash-BoneTexture]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=BoneTexture
-[cdash-CMFreg]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=CMFreg
-[cdash-DB]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=DatabaseInteractor
-[cdash-EasyClip]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=EasyClip
-[cdash-MeshStats]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=MeshStatisticsExtension
-[cdash-M2LM]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=MeshToLabelMap
-[cdash-M2MD]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ModelToModelDistance
-[cdash-PickAndPaint]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=PickAndPaintExtension
-[cdash-Q3DC]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=Q3DC
-[cdash-SPHARM-PDM]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=SPHARM-PDM
-[cdash-SPV]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ShapePopulationViewer
-[cdash-SVA]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ShapeVariationAnalyzer
+[cdash-SlicerCMF]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=SlicerCMF
+[cdash-AnglePlanes]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=AnglePlanesExtension
+[cdash-BoneTexture]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=BoneTexture
+[cdash-CMFreg]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=CMFreg
+[cdash-DB]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=DatabaseInteractor
+[cdash-EasyClip]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=EasyClip
+[cdash-MeshStats]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=MeshStatisticsExtension
+[cdash-M2LM]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=MeshToLabelMap
+[cdash-M2MD]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ModelToModelDistance
+[cdash-PickAndPaint]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=PickAndPaintExtension
+[cdash-Q3DC]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=Q3DC
+[cdash-SPHARM-PDM]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=SPHARM-PDM
+[cdash-SPV]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ShapePopulationViewer
+[cdash-SVA]: http://slicer.cdash.org/index.php?project=SlicerStable&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=ShapeVariationAnalyzer
 
 [cdash-prev-SlicerCMF]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=SlicerCMF
 [cdash-prev-AnglePlanes]: http://slicer.cdash.org/index.php?project=SlicerPreview&filtercount=1&showfilters=1&field1=buildname&compare1=63&value1=AnglePlanesExtension
